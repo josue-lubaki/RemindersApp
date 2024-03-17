@@ -17,6 +17,8 @@ struct HomeView: View {
             VStack {
                 Text("Hello World")
                 
+                Spacer()
+                
                 Button {
                     isPresented = true
                 } label : {
@@ -28,7 +30,12 @@ struct HomeView: View {
             .sheet(isPresented: $isPresented){
                 NavigationView {
                     AddNewListView { name, color in
-                        // save the list
+                        // save the list to the database
+                        do {
+                            try ReminderService.saveMyList(name, color)
+                        } catch {
+                            print(error)
+                        }
                     }
                 }
             }
@@ -40,5 +47,6 @@ struct HomeView: View {
 struct Home_Previews : PreviewProvider {
     static var previews: some View {
         HomeView()
+            .environment(\.managedObjectContext, CoreDataProvider.shared.persistentContainer.viewContext)
     }
 }
