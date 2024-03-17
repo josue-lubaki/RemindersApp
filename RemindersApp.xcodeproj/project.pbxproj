@@ -24,6 +24,7 @@
 		B0F4B5E62BA7823100AA67C4 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5E52BA7823100AA67C4 /* PreviewData.swift */; };
 		B0F4B5E82BA78A0F00AA67C4 /* MyListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5E72BA78A0F00AA67C4 /* MyListDetailView.swift */; };
 		B0F4B5EB2BA78E5600AA67C4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5EA2BA78E5600AA67C4 /* Extensions.swift */; };
+		B0F4B5ED2BA7B10500AA67C4 /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5EC2BA7B10500AA67C4 /* ReminderListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		B0F4B5E52BA7823100AA67C4 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		B0F4B5E72BA78A0F00AA67C4 /* MyListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListDetailView.swift; sourceTree = "<group>"; };
 		B0F4B5EA2BA78E5600AA67C4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B0F4B5EC2BA7B10500AA67C4 /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				B0F4B5BE2BA7628400AA67C4 /* HomeView.swift */,
 				B0F4B5D62BA7702F00AA67C4 /* AddNewListView.swift */,
 				B0F4B5E72BA78A0F00AA67C4 /* MyListDetailView.swift */,
+				B0F4B5EC2BA7B10500AA67C4 /* ReminderListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				B0F4B5CC2BA7667300AA67C4 /* CoreDataProvider.swift in Sources */,
 				B0F4B5E22BA780E100AA67C4 /* MyListsView.swift in Sources */,
 				B0F4B5DD2BA77A8A00AA67C4 /* ReminderService.swift in Sources */,
+				B0F4B5ED2BA7B10500AA67C4 /* ReminderListView.swift in Sources */,
 				B0F4B5E82BA78A0F00AA67C4 /* MyListDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
