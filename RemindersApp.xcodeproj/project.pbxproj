@@ -25,6 +25,7 @@
 		B0F4B5E82BA78A0F00AA67C4 /* MyListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5E72BA78A0F00AA67C4 /* MyListDetailView.swift */; };
 		B0F4B5EB2BA78E5600AA67C4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5EA2BA78E5600AA67C4 /* Extensions.swift */; };
 		B0F4B5ED2BA7B10500AA67C4 /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5EC2BA7B10500AA67C4 /* ReminderListView.swift */; };
+		B0F4B5EF2BA7B2AA00AA67C4 /* ReminderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5EE2BA7B2AA00AA67C4 /* ReminderCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		B0F4B5E72BA78A0F00AA67C4 /* MyListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListDetailView.swift; sourceTree = "<group>"; };
 		B0F4B5EA2BA78E5600AA67C4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		B0F4B5EC2BA7B10500AA67C4 /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
+		B0F4B5EE2BA7B2AA00AA67C4 /* ReminderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				B0F4B5D62BA7702F00AA67C4 /* AddNewListView.swift */,
 				B0F4B5E72BA78A0F00AA67C4 /* MyListDetailView.swift */,
 				B0F4B5EC2BA7B10500AA67C4 /* ReminderListView.swift */,
+				B0F4B5EE2BA7B2AA00AA67C4 /* ReminderCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				B0F4B5DD2BA77A8A00AA67C4 /* ReminderService.swift in Sources */,
 				B0F4B5ED2BA7B10500AA67C4 /* ReminderListView.swift in Sources */,
 				B0F4B5E82BA78A0F00AA67C4 /* MyListDetailView.swift in Sources */,
+				B0F4B5EF2BA7B2AA00AA67C4 /* ReminderCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
