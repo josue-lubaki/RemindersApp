@@ -22,6 +22,8 @@
 		B0F4B5E22BA780E100AA67C4 /* MyListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5E12BA780E100AA67C4 /* MyListsView.swift */; };
 		B0F4B5E42BA781ED00AA67C4 /* MyListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5E32BA781ED00AA67C4 /* MyListCellView.swift */; };
 		B0F4B5E62BA7823100AA67C4 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5E52BA7823100AA67C4 /* PreviewData.swift */; };
+		B0F4B5E82BA78A0F00AA67C4 /* MyListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5E72BA78A0F00AA67C4 /* MyListDetailView.swift */; };
+		B0F4B5EB2BA78E5600AA67C4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5EA2BA78E5600AA67C4 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		B0F4B5E12BA780E100AA67C4 /* MyListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListsView.swift; sourceTree = "<group>"; };
 		B0F4B5E32BA781ED00AA67C4 /* MyListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListCellView.swift; sourceTree = "<group>"; };
 		B0F4B5E52BA7823100AA67C4 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		B0F4B5E72BA78A0F00AA67C4 /* MyListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListDetailView.swift; sourceTree = "<group>"; };
+		B0F4B5EA2BA78E5600AA67C4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 		B0F4B5BB2BA7628400AA67C4 /* RemindersApp */ = {
 			isa = PBXGroup;
 			children = (
+				B0F4B5E92BA78E4800AA67C4 /* Extensions */,
 				B0F4B5DE2BA77C4200AA67C4 /* Transformers */,
 				B0F4B5DB2BA77A7300AA67C4 /* Services */,
 				B0F4B5D52BA76FCA00AA67C4 /* Views */,
@@ -118,6 +123,7 @@
 				B0F4B5D82BA7716800AA67C4 /* Components */,
 				B0F4B5BE2BA7628400AA67C4 /* HomeView.swift */,
 				B0F4B5D62BA7702F00AA67C4 /* AddNewListView.swift */,
+				B0F4B5E72BA78A0F00AA67C4 /* MyListDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -146,6 +152,14 @@
 				B0F4B5DF2BA77C5E00AA67C4 /* UIColorTransformer.swift */,
 			);
 			path = Transformers;
+			sourceTree = "<group>";
+		};
+		B0F4B5E92BA78E4800AA67C4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B0F4B5EA2BA78E5600AA67C4 /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +242,11 @@
 				B0F4B5D42BA7694400AA67C4 /* MyList+CoreDataProperties.swift in Sources */,
 				B0F4B5D72BA7702F00AA67C4 /* AddNewListView.swift in Sources */,
 				B0F4B5D22BA7692E00AA67C4 /* MyList+CoreDataClass.swift in Sources */,
+				B0F4B5EB2BA78E5600AA67C4 /* Extensions.swift in Sources */,
 				B0F4B5CC2BA7667300AA67C4 /* CoreDataProvider.swift in Sources */,
 				B0F4B5E22BA780E100AA67C4 /* MyListsView.swift in Sources */,
 				B0F4B5DD2BA77A8A00AA67C4 /* ReminderService.swift in Sources */,
+				B0F4B5E82BA78A0F00AA67C4 /* MyListDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
