@@ -26,6 +26,9 @@
 		B0F4B5EB2BA78E5600AA67C4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5EA2BA78E5600AA67C4 /* Extensions.swift */; };
 		B0F4B5ED2BA7B10500AA67C4 /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5EC2BA7B10500AA67C4 /* ReminderListView.swift */; };
 		B0F4B5EF2BA7B2AA00AA67C4 /* ReminderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5EE2BA7B2AA00AA67C4 /* ReminderCellView.swift */; };
+		B0F4B5F22BA8A80700AA67C4 /* ReminderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5F12BA8A80700AA67C4 /* ReminderDetailView.swift */; };
+		B0F4B5F52BA8A8EB00AA67C4 /* ReminderEditConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5F42BA8A8EB00AA67C4 /* ReminderEditConfig.swift */; };
+		B0F4B5F82BA8AA9E00AA67C4 /* CustomOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5F72BA8AA9E00AA67C4 /* CustomOperators.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,9 @@
 		B0F4B5EA2BA78E5600AA67C4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		B0F4B5EC2BA7B10500AA67C4 /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
 		B0F4B5EE2BA7B2AA00AA67C4 /* ReminderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCellView.swift; sourceTree = "<group>"; };
+		B0F4B5F12BA8A80700AA67C4 /* ReminderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailView.swift; sourceTree = "<group>"; };
+		B0F4B5F42BA8A8EB00AA67C4 /* ReminderEditConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderEditConfig.swift; sourceTree = "<group>"; };
+		B0F4B5F72BA8AA9E00AA67C4 /* CustomOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOperators.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		B0F4B5BB2BA7628400AA67C4 /* RemindersApp */ = {
 			isa = PBXGroup;
 			children = (
+				B0F4B5F62BA8AA8B00AA67C4 /* Utils */,
 				B0F4B5E92BA78E4800AA67C4 /* Extensions */,
 				B0F4B5DE2BA77C4200AA67C4 /* Transformers */,
 				B0F4B5DB2BA77A7300AA67C4 /* Services */,
@@ -115,6 +122,7 @@
 		B0F4B5D02BA7690E00AA67C4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B0F4B5F32BA8A8D100AA67C4 /* EditConfig */,
 				B0F4B5D12BA7692E00AA67C4 /* MyList+CoreDataClass.swift */,
 				B0F4B5D32BA7694400AA67C4 /* MyList+CoreDataProperties.swift */,
 			);
@@ -130,6 +138,7 @@
 				B0F4B5E72BA78A0F00AA67C4 /* MyListDetailView.swift */,
 				B0F4B5EC2BA7B10500AA67C4 /* ReminderListView.swift */,
 				B0F4B5EE2BA7B2AA00AA67C4 /* ReminderCellView.swift */,
+				B0F4B5F12BA8A80700AA67C4 /* ReminderDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,6 +175,22 @@
 				B0F4B5EA2BA78E5600AA67C4 /* Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B0F4B5F32BA8A8D100AA67C4 /* EditConfig */ = {
+			isa = PBXGroup;
+			children = (
+				B0F4B5F42BA8A8EB00AA67C4 /* ReminderEditConfig.swift */,
+			);
+			path = EditConfig;
+			sourceTree = "<group>";
+		};
+		B0F4B5F62BA8AA8B00AA67C4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B0F4B5F72BA8AA9E00AA67C4 /* CustomOperators.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,8 +270,11 @@
 				B0F4B5E62BA7823100AA67C4 /* PreviewData.swift in Sources */,
 				B0F4B5E02BA77C5E00AA67C4 /* UIColorTransformer.swift in Sources */,
 				B0F4B5BD2BA7628400AA67C4 /* RemindersAppApp.swift in Sources */,
+				B0F4B5F52BA8A8EB00AA67C4 /* ReminderEditConfig.swift in Sources */,
 				B0F4B5D42BA7694400AA67C4 /* MyList+CoreDataProperties.swift in Sources */,
 				B0F4B5D72BA7702F00AA67C4 /* AddNewListView.swift in Sources */,
+				B0F4B5F82BA8AA9E00AA67C4 /* CustomOperators.swift in Sources */,
+				B0F4B5F22BA8A80700AA67C4 /* ReminderDetailView.swift in Sources */,
 				B0F4B5D22BA7692E00AA67C4 /* MyList+CoreDataClass.swift in Sources */,
 				B0F4B5EB2BA78E5600AA67C4 /* Extensions.swift in Sources */,
 				B0F4B5CC2BA7667300AA67C4 /* CoreDataProvider.swift in Sources */,
