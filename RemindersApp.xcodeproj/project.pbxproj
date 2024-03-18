@@ -29,6 +29,7 @@
 		B0F4B5F22BA8A80700AA67C4 /* ReminderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5F12BA8A80700AA67C4 /* ReminderDetailView.swift */; };
 		B0F4B5F52BA8A8EB00AA67C4 /* ReminderEditConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5F42BA8A8EB00AA67C4 /* ReminderEditConfig.swift */; };
 		B0F4B5F82BA8AA9E00AA67C4 /* CustomOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5F72BA8AA9E00AA67C4 /* CustomOperators.swift */; };
+		B0F4B5FA2BA8B2B000AA67C4 /* SelectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5F92BA8B2B000AA67C4 /* SelectListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		B0F4B5F12BA8A80700AA67C4 /* ReminderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailView.swift; sourceTree = "<group>"; };
 		B0F4B5F42BA8A8EB00AA67C4 /* ReminderEditConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderEditConfig.swift; sourceTree = "<group>"; };
 		B0F4B5F72BA8AA9E00AA67C4 /* CustomOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOperators.swift; sourceTree = "<group>"; };
+		B0F4B5F92BA8B2B000AA67C4 /* SelectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				B0F4B5EC2BA7B10500AA67C4 /* ReminderListView.swift */,
 				B0F4B5EE2BA7B2AA00AA67C4 /* ReminderCellView.swift */,
 				B0F4B5F12BA8A80700AA67C4 /* ReminderDetailView.swift */,
+				B0F4B5F92BA8B2B000AA67C4 /* SelectListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				B0F4B5D22BA7692E00AA67C4 /* MyList+CoreDataClass.swift in Sources */,
 				B0F4B5EB2BA78E5600AA67C4 /* Extensions.swift in Sources */,
 				B0F4B5CC2BA7667300AA67C4 /* CoreDataProvider.swift in Sources */,
+				B0F4B5FA2BA8B2B000AA67C4 /* SelectListView.swift in Sources */,
 				B0F4B5E22BA780E100AA67C4 /* MyListsView.swift in Sources */,
 				B0F4B5DD2BA77A8A00AA67C4 /* ReminderService.swift in Sources */,
 				B0F4B5ED2BA7B10500AA67C4 /* ReminderListView.swift in Sources */,
