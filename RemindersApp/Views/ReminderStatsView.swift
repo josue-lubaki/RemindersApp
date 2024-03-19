@@ -12,7 +12,7 @@ struct ReminderStatsView: View {
     let icon : String
     let title : String
     let count : Int?
-    let iconColor : Color = .blue
+    var iconColor : Color = .blue
     
     var body: some View {
         VStack {
