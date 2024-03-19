@@ -31,6 +31,7 @@
 		B0F4B5F82BA8AA9E00AA67C4 /* CustomOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5F72BA8AA9E00AA67C4 /* CustomOperators.swift */; };
 		B0F4B5FA2BA8B2B000AA67C4 /* SelectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5F92BA8B2B000AA67C4 /* SelectListView.swift */; };
 		B0F4B5FC2BA8D37000AA67C4 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5FB2BA8D37000AA67C4 /* Delay.swift */; };
+		B0F4B5FE2BAA034B00AA67C4 /* ReminderStatsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5FD2BAA034B00AA67C4 /* ReminderStatsBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		B0F4B5F72BA8AA9E00AA67C4 /* CustomOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOperators.swift; sourceTree = "<group>"; };
 		B0F4B5F92BA8B2B000AA67C4 /* SelectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectListView.swift; sourceTree = "<group>"; };
 		B0F4B5FB2BA8D37000AA67C4 /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		B0F4B5FD2BAA034B00AA67C4 /* ReminderStatsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderStatsBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				B0F4B5F32BA8A8D100AA67C4 /* EditConfig */,
 				B0F4B5D12BA7692E00AA67C4 /* MyList+CoreDataClass.swift */,
 				B0F4B5D32BA7694400AA67C4 /* MyList+CoreDataProperties.swift */,
+				B0F4B5FD2BAA034B00AA67C4 /* ReminderStatsBuilder.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				B0F4B5EB2BA78E5600AA67C4 /* Extensions.swift in Sources */,
 				B0F4B5CC2BA7667300AA67C4 /* CoreDataProvider.swift in Sources */,
 				B0F4B5FA2BA8B2B000AA67C4 /* SelectListView.swift in Sources */,
+				B0F4B5FE2BAA034B00AA67C4 /* ReminderStatsBuilder.swift in Sources */,
 				B0F4B5E22BA780E100AA67C4 /* MyListsView.swift in Sources */,
 				B0F4B5DD2BA77A8A00AA67C4 /* ReminderService.swift in Sources */,
 				B0F4B5ED2BA7B10500AA67C4 /* ReminderListView.swift in Sources */,
