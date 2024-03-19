@@ -17,6 +17,8 @@ struct ReminderCellView: View {
     
     let reminder : Reminder
     let delay = Delay()
+    let isSelected : Bool
+    
     @State private var checked : Bool = false
     
     // évite les multiples closures
@@ -75,6 +77,7 @@ struct ReminderCellView: View {
             Spacer()
             
             Image(systemName: "info.circle.fill")
+                .opacity(isSelected ? 1.0 : 0.0)
                 .onTapGesture {
                     onEvent(.onInfo)
                 }
@@ -89,7 +92,7 @@ struct ReminderCellView: View {
 
 struct ReminderCellView_Previews : PreviewProvider {
     static var previews: some View {
-        ReminderCellView(reminder : PreviewData.reminder, onEvent: { _ in })
+        ReminderCellView(reminder : PreviewData.reminder, isSelected: false, onEvent: { _ in })
     }
 }
 
