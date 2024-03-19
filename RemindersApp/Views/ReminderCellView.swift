@@ -75,7 +75,6 @@ struct ReminderCellView: View {
             }
             
             Spacer()
-            
             Image(systemName: "info.circle.fill")
                 .opacity(isSelected ? 1.0 : 0.0)
                 .onTapGesture {
@@ -83,7 +82,10 @@ struct ReminderCellView: View {
                 }
             
         }
-        .contentShape(Rectangle())
+        .onAppear {
+            checked = reminder.isCompleted
+        }
+        .contentShape(.rect)
         .onTapGesture {
             onEvent(.onSelect(reminder))
         }
