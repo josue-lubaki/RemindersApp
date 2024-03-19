@@ -13,6 +13,10 @@ struct ReminderDetailView: View {
     @Binding var reminder : Reminder
     @State var editConfig : ReminderEditConfig = ReminderEditConfig()
     
+    private var isFormValid : Bool {
+        !editConfig.title.isEmptyOrWhitespace
+    }
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -55,6 +59,14 @@ struct ReminderDetailView: View {
                             }
                         }
                         
+                    }.onChange(of: editConfig.hasDate){
+                        if editConfig.hasDate {
+                            editConfig.reminderDate = Date()
+                        }
+                    }.onChange(of: editConfig.hasTime){
+                        if editConfig.hasTime {
+                            editConfig.reminderTime = Date()
+                        }
                     }
                 }.listStyle(.insetGrouped)
             }
@@ -68,8 +80,13 @@ struct ReminderDetailView: View {
                 
                 ToolbarItem(placement: .topBarTrailing){
                     Button("Done"){
-                        
-                    }
+                        do {
+                            let _ = try ReminderService.updateReminder(reminder: reminder, editConfig: editConfig)
+                        } catch {
+                            print(error)
+                        }
+                        dismiss() // go away
+                    }.disabled(!isFormValid)
                 }
                 
                 ToolbarItem(placement: .topBarLeading){

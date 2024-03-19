@@ -30,6 +30,7 @@
 		B0F4B5F52BA8A8EB00AA67C4 /* ReminderEditConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5F42BA8A8EB00AA67C4 /* ReminderEditConfig.swift */; };
 		B0F4B5F82BA8AA9E00AA67C4 /* CustomOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5F72BA8AA9E00AA67C4 /* CustomOperators.swift */; };
 		B0F4B5FA2BA8B2B000AA67C4 /* SelectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5F92BA8B2B000AA67C4 /* SelectListView.swift */; };
+		B0F4B5FC2BA8D37000AA67C4 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5FB2BA8D37000AA67C4 /* Delay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		B0F4B5F42BA8A8EB00AA67C4 /* ReminderEditConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderEditConfig.swift; sourceTree = "<group>"; };
 		B0F4B5F72BA8AA9E00AA67C4 /* CustomOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOperators.swift; sourceTree = "<group>"; };
 		B0F4B5F92BA8B2B000AA67C4 /* SelectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectListView.swift; sourceTree = "<group>"; };
+		B0F4B5FB2BA8D37000AA67C4 /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				B0F4B5F72BA8AA9E00AA67C4 /* CustomOperators.swift */,
+				B0F4B5FB2BA8D37000AA67C4 /* Delay.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				B0F4B5D42BA7694400AA67C4 /* MyList+CoreDataProperties.swift in Sources */,
 				B0F4B5D72BA7702F00AA67C4 /* AddNewListView.swift in Sources */,
 				B0F4B5F82BA8AA9E00AA67C4 /* CustomOperators.swift in Sources */,
+				B0F4B5FC2BA8D37000AA67C4 /* Delay.swift in Sources */,
 				B0F4B5F22BA8A80700AA67C4 /* ReminderDetailView.swift in Sources */,
 				B0F4B5D22BA7692E00AA67C4 /* MyList+CoreDataClass.swift in Sources */,
 				B0F4B5EB2BA78E5600AA67C4 /* Extensions.swift in Sources */,
