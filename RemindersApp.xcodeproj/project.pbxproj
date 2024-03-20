@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B067BFF02BAB607D00F3F385 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B067BFEF2BAB607D00F3F385 /* NotificationManager.swift */; };
+		B067BFF22BAB76C500F3F385 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B067BFF12BAB76C500F3F385 /* Color+Extensions.swift */; };
 		B0F4B5BD2BA7628400AA67C4 /* RemindersAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5BC2BA7628400AA67C4 /* RemindersAppApp.swift */; };
 		B0F4B5BF2BA7628400AA67C4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B5BE2BA7628400AA67C4 /* HomeView.swift */; };
 		B0F4B5C12BA7628500AA67C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F4B5C02BA7628500AA67C4 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		B067BFEF2BAB607D00F3F385 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		B067BFF12BAB76C500F3F385 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		B0F4B5B92BA7628400AA67C4 /* RemindersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F4B5BC2BA7628400AA67C4 /* RemindersAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersAppApp.swift; sourceTree = "<group>"; };
 		B0F4B5BE2BA7628400AA67C4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				B0F4B5EA2BA78E5600AA67C4 /* Extensions.swift */,
+				B067BFF12BAB76C500F3F385 /* Color+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				B0F4B5E62BA7823100AA67C4 /* PreviewData.swift in Sources */,
 				B0F4B5E02BA77C5E00AA67C4 /* UIColorTransformer.swift in Sources */,
 				B0F4B5BD2BA7628400AA67C4 /* RemindersAppApp.swift in Sources */,
+				B067BFF22BAB76C500F3F385 /* Color+Extensions.swift in Sources */,
 				B0F4B5F52BA8A8EB00AA67C4 /* ReminderEditConfig.swift in Sources */,
 				B0F4B5D42BA7694400AA67C4 /* MyList+CoreDataProperties.swift in Sources */,
 				B0F4B5D72BA7702F00AA67C4 /* AddNewListView.swift in Sources */,

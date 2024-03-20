@@ -14,6 +14,8 @@ struct ReminderStatsView: View {
     let count : Int?
     var iconColor : Color = .blue
     
+    @Environment(\.colorScheme) var colorScheme
+    
     var body: some View {
         VStack {
             HStack {
@@ -34,14 +36,19 @@ struct ReminderStatsView: View {
         }
         .padding()
         .frame(maxWidth: .infinity)
-        .background(.gray)
-        .foregroundColor(.white)
+        .background(colorScheme == .dark ? Color.darkGray : Color.offWhite)
+        .foregroundColor(colorScheme == .dark ? Color.offWhite : Color.darkGray)
         .clipShape(.rect(cornerRadius: 16, style: .continuous))
     }
 }
 
 struct ReminderStatsView_Previews : PreviewProvider {
     static var previews: some View {
-        ReminderStatsView(icon: "calendar", title: "Today", count: 9)
+        Group {
+            ReminderStatsView(icon: "calendar", title: "Today", count: 9)
+            ReminderStatsView(icon: "calendar", title: "Today", count: 9)
+                .environment(\.colorScheme, .dark)
+        }
+       
     }
 }
