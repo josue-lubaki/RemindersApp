@@ -52,12 +52,9 @@ struct HomeView: View {
                         } label : {
                             ReminderStatsView(icon: "calendar.circle.fill",title: "Scheduled", count: reminderStatsValues.scheduledCount, iconColor: .red)
                         }
-                       
                     }
                     
                     HStack {
-                      
-                        
                         NavigationLink {
                             ReminderListView(reminders: allResults)
                         } label : {
@@ -69,8 +66,6 @@ struct HomeView: View {
                         } label : {
                             ReminderStatsView(icon: "checkmark.circle.fill", title: "Completed", count: reminderStatsValues.completedCount, iconColor: .primary)
                         }
-                       
-                       
                     }
                 
                     Text("My Lists")
